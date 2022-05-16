@@ -5,9 +5,6 @@ jobs:
     - arch: ppc64le
       dist: focal
 
-# arch:
-#   - ppc64le
-
 script:
   - echo "Hello"
   - cat /etc/os-release
